@@ -1,0 +1,10 @@
+let nombre: string = "Juan";
+let edad: number = 22;
+let esEstudiante: boolean = true;
+let mes: string | undefined;
+let variableNull: null = null;
+console.log(`Hola, ${nombre}!`);
+console.log(`Tienes ${edad} años.`);
+console.log(`¿Eres estudiante? ${esEstudiante}`);
+console.log(`Mes actual: ${mes}`);
+console.log(`Variable nula: ${variableNull}`);

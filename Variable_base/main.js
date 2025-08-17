@@ -1,0 +1,10 @@
+var nombre = "Juan";
+var edad = 22;
+var esEstudiante = true;
+var mes;
+var variableNull = null;
+console.log("Hola, ".concat(nombre, "!"));
+console.log("Tienes ".concat(edad, " a\u00F1os."));
+console.log("\u00BFEres estudiante? ".concat(esEstudiante));
+console.log("Mes actual: ".concat(mes));
+console.log("Variable nula: ".concat(variableNull));
