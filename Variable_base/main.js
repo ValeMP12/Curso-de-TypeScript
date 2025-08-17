@@ -1,10 +1,13 @@
-var nombre = "Juan";
-var edad = 22;
-var esEstudiante = true;
-var mes;
-var variableNull = null;
-console.log("Hola, ".concat(nombre, "!"));
-console.log("Tienes ".concat(edad, " a\u00F1os."));
-console.log("\u00BFEres estudiante? ".concat(esEstudiante));
-console.log("Mes actual: ".concat(mes));
-console.log("Variable nula: ".concat(variableNull));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let nombre = "Juan";
+let edad = 22;
+let esEstudiante = true;
+let mes;
+let variableNull = null;
+console.log(`Hola, ${nombre}!`);
+console.log(`Tienes ${edad} años.`);
+console.log(`¿Eres estudiante? ${esEstudiante}`);
+console.log(`Mes actual: ${mes}`);
+console.log(`Variable nula: ${variableNull}`);
+//# sourceMappingURL=main.js.map
