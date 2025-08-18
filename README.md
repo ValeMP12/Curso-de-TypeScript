@@ -19,6 +19,8 @@ Domina tipado, funciones, clases, interfaces, genéricos y pruebas en TypeScript
 
 - `Variable_base/`: Ejemplos de variables con tipos básicos en TypeScript.
 - `Variables_diferentes/`: Ejemplo de variable con tipo `any` y reasignaciones.
+- `Listas`: Ejemplos con Arreglos, Tuplas y Enumeradores.
+- `Metodos`: Ejemplos de Funciones y Parametros: Opcionales, Múltiples y por Defecto 
 
 ## Cómo ejecutar los ejemplos
 
@@ -41,11 +43,25 @@ Esto compilará todos los archivos `.ts` a `.js` según la configuración de [ts
 ```sh
 node Variable_base/main.js
 ```
-
 #### Variables_diferentes
 
 ```sh
 node Variables_diferentes/main.js
+```
+
+#### Listas
+
+```sh
+node Variables_diferentes/listas.js
+```
+
+#### Metodos
+
+```sh
+node Variables_diferentes/metodos.js
+```
+```sh
+node Variables_diferentes/metodos2.js
 ```
 
 ## Personaliza y aprende
